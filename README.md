@@ -4,7 +4,7 @@ A small, reproducible Python example of the reporting pipeline behind a weekly s
 
 ## Business question
 
-A team wants to know which acquisition channels bring revenue, which customers return, and where the weekly report changed. Manual spreadsheet work makes that answer slow and hard to reproduce.
+A team wants to know which acquisition channels bring revenue, how revenue compares across weeks, and where the weekly report changed. Manual spreadsheet work makes that answer slow and hard to reproduce.
 
 ## Approach
 
