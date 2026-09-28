@@ -14,7 +14,7 @@ The script creates a deterministic sample of order records, validates them, aggr
 
 ```bash
 python3 reporting.py --output out
-python3 -m unittest discover -s tests -v
+python3 -m unittest discover -s . -p "test_*.py" -v
 ```
 
 Open `out/report.md` and `out/weekly_channels.csv`. Python 3.10+ is sufficient. Set `--seed` to another integer for a different, repeatable sample.
